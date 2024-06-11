@@ -1,0 +1,8 @@
+{
+    "cSpell.ignoreWords": [
+        "myapp",
+        "usermanagement"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic"
+}
