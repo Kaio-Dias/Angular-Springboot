@@ -4,5 +4,17 @@
         "usermanagement"
     ],
     "java.configuration.updateBuildConfiguration": "automatic",
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "database": "postgresql",
+            "username": "kaio_dias",
+            "password": "kaio_dias"
+        }
+    ]
 }

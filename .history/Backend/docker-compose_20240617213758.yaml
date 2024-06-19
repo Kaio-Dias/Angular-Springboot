@@ -1,0 +1,26 @@
+services:
+  postgresql:
+    container_name: postgres
+    image: bitnami/postgresql
+    environment: 
+      POSTGRESQL_USERNAME: kaio_dias
+      POSTGRESQL_PASSWORD: kaio_dias
+      POSTGRESQL_DATABASE: postgresql
+    ports: 
+      - 5432:5432
+    restart: unless-stopped
+
+  pgadmin:
+    container_name: pgadmin_container     
+    image: bitnami/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: kaio@email.org
+      PGADMIN_DEFAULT_PASSWORD: 123
+    depends_on:
+      - postgresql  
+    ports:
+      - "5050:80"  
+    networks:
+      - postgres_network 
+    restart: unless-stopped       
+

@@ -1,0 +1,13 @@
+spring:
+  datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/postgresql
+      username: kaio_dias
+      password: 'kaio_dias'
+      hikari:
+        maximum-pool-size: 30
+
+server:
+  error:
+    include-binding-errors: always
+    include-message: always
