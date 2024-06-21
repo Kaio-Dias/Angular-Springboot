@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/Backend/user-system/pom.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/directory/pom_20240523205908.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/directory/pom_20240523204307.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612164031.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240528183140.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203757.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240613162958.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621192453.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203544.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523210913.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621192919.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612163826.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203556.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604233921.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240619222436.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240620003212.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523210906.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523210737.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203555.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203553.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240617205328.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604233616.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612170242.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621192611.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612164935.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203812.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240620002427.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621191751.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523210559.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240620003335.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621192824.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612170256.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240620223527.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604234415.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612162625.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604234124.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240619222813.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240605000310.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612164147.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621191859.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203646.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523210747.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612163935.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240620220703.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240611002721.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604234301.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612162911.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604234658.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621192534.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604233603.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240620220837.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523202013.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604234406.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523214728.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240611010324.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240620003038.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240528183130.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612165613.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240528184806.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621191907.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612163600.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240523203707.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612170313.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240612163459.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240611010856.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240621191352.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240604234431.xml" />
+        <option value="$PROJECT_DIR$/.history/Backend/user-system/pom_20240611002754.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

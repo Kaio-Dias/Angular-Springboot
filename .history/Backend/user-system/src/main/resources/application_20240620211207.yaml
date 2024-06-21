@@ -1,0 +1,22 @@
+spring:
+  datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/postgresql?user=kaio_dias&password=kaio_dias
+      hikari:
+        maximum-pool-size: 30
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    url: jdbc:postgresql://localhost:5432/postgresql?user=kaio_dias&password=kaio_dias
+    baselineOnMigrate: true
+
+server:
+  error:
+    include-binding-errors: always
+    include-message: always

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-system (63)" />
+        <module name="user-system (31)" />
+        <module name="user-system (43)" />
+        <module name="user-system (11)" />
+        <module name="user-system (55)" />
+        <module name="user-system (51)" />
+        <module name="maven-archiver" />
+        <module name="user-system (6)" />
+        <module name="user-system (2)" />
+        <module name="user-system (27)" />
+        <module name="user-system (39)" />
+        <module name="user-system (19)" />
+        <module name="user-system (23)" />
+        <module name="user-system (35)" />
+        <module name="user-system (47)" />
+        <module name="user-system (15)" />
+        <module name="user-system (59)" />
+        <module name="user-system (30)" />
+        <module name="user-system (42)" />
+        <module name="user-system (10)" />
+        <module name="user-system (54)" />
+        <module name="user-system (22)" />
+        <module name="user-system (66)" />
+        <module name="user-system (50)" />
+        <module name="user-system (62)" />
+        <module name="user-system (9)" />
+        <module name="user-system (5)" />
+        <module name="user-system (1)" />
+        <module name="user-system (38)" />
+        <module name="user-system (18)" />
+        <module name="user-system (34)" />
+        <module name="user-system (46)" />
+        <module name="user-system (14)" />
+        <module name="user-system (58)" />
+        <module name="user-system (26)" />
+        <module name="user-system (41)" />
+        <module name="user-system (53)" />
+        <module name="user-system (21)" />
+        <module name="user-system (65)" />
+        <module name="user-system (33)" />
+        <module name="user-system (61)" />
+        <module name="user-system (8)" />
+        <module name="user-system (4)" />
+        <module name="user-system (49)" />
+        <module name="user-system (17)" />
+        <module name="user-system (29)" />
+        <module name="directory (2)" />
+        <module name="user-system (45)" />
+        <module name="user-system (13)" />
+        <module name="user-system (57)" />
+        <module name="user-system (25)" />
+        <module name="user-system (37)" />
+        <module name="user-system (52)" />
+        <module name="user-system (20)" />
+        <module name="user-system (64)" />
+        <module name="user-system (32)" />
+        <module name="user-system (44)" />
+        <module name="user-system (60)" />
+        <module name="user-system (40)" />
+        <module name="user-system (7)" />
+        <module name="user-system (3)" />
+        <module name="user-system (16)" />
+        <module name="user-system (28)" />
+        <module name="user-system (12)" />
+        <module name="user-system (56)" />
+        <module name="directory (1)" />
+        <module name="user-system (24)" />
+        <module name="user-system (36)" />
+        <module name="user-system (48)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="user-system" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="directory (2)" options="-parameters" />
+      <module name="user-system" options="-parameters" />
+      <module name="user-system (24)" options="-parameters" />
+      <module name="user-system (4)" options="-parameters" />
+      <module name="user-system (66)" options="-parameters" />
+    </option>
+  </component>
+</project>
