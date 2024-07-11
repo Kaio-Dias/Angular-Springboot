@@ -13,8 +13,8 @@
             "driver": "PostgreSQL",
             "name": "postgres",
             "database": "postgresql",
-            "username": "kaio_dias",
-            "password": "kaio_dias"
+            "username": "postgres",
+            "password": "admin"
         }
     ],
     "cSpell.words": [
