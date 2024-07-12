@@ -52,13 +52,7 @@
                     </div>
 
                     <div class="modal-body" *ngIf="userSelected">
-                        Confirma a deleção do(a) cliente: {{userSelected.username}} ?
-                    </div>
-
-                    <div class="modal-footer">
-                        <button class="btn btn-success" (click)="deleteUser()" data-dismiss="modal">Confirmar</button>
-                        <button class="btn btn-alert" data-dismiss="modal">Cancelar</button>
-
+                        {{userSelected.username}}
                     </div>
                 </div>
             </div>

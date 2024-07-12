@@ -18,22 +18,23 @@ export class UsersFormComponent implements OnInit {
   
   user: UserModel = new UserModel();
   success: boolean = false;
+  data1: string|number|Date;
 
   constructor(private usersService: UsersService,
     private router:Router,
     private activatedRoute: ActivatedRoute
   ) {}
 
-  ngOnInit(): void {
-    this.user = new UserModel(); 
-    this.loadUser(0); //Aqui, Kaio
+  ngOnInit(): void { //Criei para testar a chamada à API
+    this.user = new UserModel(); // Inicialize user com um novo objeto UserModel
+    this.loadUser(0); // Por exemplo, carregando o usuário com id 1
   }
 
   loadUser(id: number): void {
     this.usersService.getUserById(id).subscribe((data: UserModel) => {
       this.user = data;
     });
-  } 
+  } //Criado para testar
 
   backRegister(){
     this.router.navigate(['/users-list'])

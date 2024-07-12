@@ -5,11 +5,13 @@ export class UserModel {
     username: string;
     cpf: string;
     registered_date: Date;
+    data1: string;
   
     constructor(id: number = 0, username: string = "", cpf: string = "", registered_date: Date= new Date(), data1: string="") {
       this.id = id;
       this.username = username;
       this.cpf = cpf;
       this.registered_date = registered_date;
+      this.data1 = data1;
   }
 }

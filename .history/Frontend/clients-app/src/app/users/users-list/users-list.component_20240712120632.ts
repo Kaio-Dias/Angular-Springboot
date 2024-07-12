@@ -17,9 +17,7 @@ import { response } from 'express';
 export class UsersListComponent implements OnInit {
 
   users: UserModel[] = [];
-  userSelected: UserModel = new UserModel();
-  mensagemDeuBom: string = "";
-  mensagemDeuRuim: string = "";
+  //userSelected: UserModel;
   
 
   constructor(
@@ -37,12 +35,6 @@ export class UsersListComponent implements OnInit {
   }
 
   readyDelete(user:UserModel){
-    this.userSelected = user;
-  }
 
-  deleteUser(){
-    this.userService.deleteUser(this.userSelected).subscribe(response => this.mensagemDeuBom = "Cliente deletado com sucesso",
-    erro => this.mensagemDeuRuim = "Ocoreu um erro ao deletar o cliente"
-    )
   }
 }

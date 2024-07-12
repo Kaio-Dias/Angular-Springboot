@@ -28,14 +28,14 @@
                     <td>{{ user.id }}</td>
                     <td>{{ user.username }}</td>
                     <td>{{ user.cpf }}</td>
-                    <td>{{ user.registered_date | date: 'yyyy-MM-dd HH:mm:ss' }}</td>
+                    <td>{{ user.registered_date | date: 'yyyy-MM-dd' }}</td>
+                    
                     <td>
                         <button class="btn btn-primary">
                             <i class="fa fa-pen-square"></i>
                         </button>
 
-                        <button class="btn btn-danger" (click)="readyDelete(user)"
-                        data-toggle="modal" data-target="#deleteModal">
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">
                             <i class="fa fa-trash"></i>
                         </button>
                     </td>
@@ -51,14 +51,8 @@
                         <h4>Confirmação</h4>
                     </div>
 
-                    <div class="modal-body" *ngIf="userSelected">
-                        Confirma a deleção do(a) cliente: {{userSelected.username}} ?
-                    </div>
-
-                    <div class="modal-footer">
-                        <button class="btn btn-success" (click)="deleteUser()" data-dismiss="modal">Confirmar</button>
-                        <button class="btn btn-alert" data-dismiss="modal">Cancelar</button>
-
+                    <div class="modal-body">
+                        hello
                     </div>
                 </div>
             </div>

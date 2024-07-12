@@ -24,16 +24,19 @@ export class UsersFormComponent implements OnInit {
     private activatedRoute: ActivatedRoute
   ) {}
 
-  ngOnInit(): void {
-    this.user = new UserModel(); 
-    this.loadUser(0); //Aqui, Kaio
+  ngOnInit(): void { //Criei para testar a chamada à API
+    this.user = new UserModel(); // Inicialize user com um novo objeto UserModel
+    this.loadUser(12); // Por exemplo, carregando o usuário com id 1
   }
 
   loadUser(id: number): void {
     this.usersService.getUserById(id).subscribe((data: UserModel) => {
+      if (data.registered_date) {
+        data.registered_date = new Date(data.registered_date);
+    }
       this.user = data;
     });
-  } 
+  } //Criado para testar
 
   backRegister(){
     this.router.navigate(['/users-list'])

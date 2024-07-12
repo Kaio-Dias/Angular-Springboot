@@ -17,9 +17,7 @@ import { response } from 'express';
 export class UsersListComponent implements OnInit {
 
   users: UserModel[] = [];
-  userSelected: UserModel = new UserModel();
-  mensagemDeuBom: string = "";
-  mensagemDeuRuim: string = "";
+  //userSelected: UserModel;
   
 
   constructor(
@@ -30,19 +28,23 @@ export class UsersListComponent implements OnInit {
 
   ngOnInit(): void {
     this.userService.getUsers().subscribe(response => this.users = response);
+    this.loadUsers();
+  }
+
+  loadUsers(): void {
+    this.userService.getUsers().subscribe((data: UserModel[]) => {
+      this.users = data.map(user => ({
+        ...user,
+        registered_date: new Date(user.registered_date)
+      }));
+    });
   }
 
   newRegister(){
     this.router.navigate(['/users-form'])
   }
 
-  readyDelete(user:UserModel){
-    this.userSelected = user;
-  }
+  /*readyDelete(user:UserModel){
 
-  deleteUser(){
-    this.userService.deleteUser(this.userSelected).subscribe(response => this.mensagemDeuBom = "Cliente deletado com sucesso",
-    erro => this.mensagemDeuRuim = "Ocoreu um erro ao deletar o cliente"
-    )
-  }
+  }*/
 }

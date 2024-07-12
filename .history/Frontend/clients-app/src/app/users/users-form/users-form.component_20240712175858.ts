@@ -26,7 +26,7 @@ export class UsersFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.user = new UserModel(); 
-    this.loadUser(0); //Aqui, Kaio
+    this.loadUser(24); //Aqui, Kaio
   }
 
   loadUser(id: number): void {
